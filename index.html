@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gokul Sri | AI & Data Science</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #111827;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        nav h2 {
+            color: #38bdf8;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 90px 10%;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(135deg, #0f172a, #172554);
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero h3 {
+            font-size: 25px;
+            color: #94a3b8;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            margin: auto;
+            color: #cbd5e1;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #38bdf8;
+            color: #0f172a;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #7dd3fc;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 45px;
+            color: #38bdf8;
+        }
+
+        .about {
+            max-width: 850px;
+            margin: auto;
+            text-align: center;
+            color: #cbd5e1;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+
+        .skill {
+            background: #1e293b;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .skill:hover {
+            transform: translateY(-5px);
+            background: #263449;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .project {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #334155;
+        }
+
+        .project h3 {
+            color: #38bdf8;
+            margin-bottom: 12px;
+        }
+
+        .project p {
+            color: #cbd5e1;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            margin: 12px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #020617;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 700px) {
+            nav {
+                padding: 15px;
+            }
+
+            nav ul {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 40px;
+            }
+
+            section {
+                padding: 80px 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>Gokul Sri</h2>
+
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div>
+            <h1>Hello, I'm <span>Gokul Sri</span></h1>
+
+            <h3>AI & Data Science Student</h3>
+
+            <p>
+                Passionate about Artificial Intelligence, Machine Learning,
+                Data Science and building practical solutions for real-world problems.
+            </p>
+
+            <a href="#projects" class="btn">View My Projects</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="title">About Me</h2>
+
+        <div class="about">
+            <p>
+                I am an enthusiastic Artificial Intelligence and Data Science
+                student interested in Python, Machine Learning, Data Analytics
+                and AI-based applications. I enjoy learning new technologies
+                and applying them to solve real-world problems.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="title">My Skills</h2>
+
+        <div class="skills">
+
+            <div class="skill">Python</div>
+            <div class="skill">C Programming</div>
+            <div class="skill">Java</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Machine Learning</div>
+            <div class="skill">Deep Learning</div>
+            <div class="skill">Computer Vision</div>
+            <div class="skill">NLP</div>
+            <div class="skill">MongoDB</div>
+            <div class="skill">Data Analytics</div>
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">Git & GitHub</div>
+
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="title">My Projects</h2>
+
+        <div class="projects">
+
+            <div class="project">
+                <h3>ReconEdge</h3>
+
+                <p>
+                    An intelligent home security system designed to reduce
+                    false alarms using AI-based person detection and
+                    suspicious activity monitoring.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>AI Chatbot</h3>
+
+                <p>
+                    An AI-based conversational chatbot designed to interact
+                    with users and provide responses to their queries.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Customer Revenue Analysis</h3>
+
+                <p>
+                    A data analytics project focused on analyzing customer
+                    groups and identifying their contribution to revenue.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="title">Contact Me</h2>
+
+        <div class="contact">
+            <p>📧 Email: your-email@gmail.com</p>
+            <p>📱 Phone: Your Phone Number</p>
+            <p>🔗 LinkedIn: Your LinkedIn Profile</p>
+            <p>💻 GitHub: Your GitHub Profile</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Gokul Sri. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
